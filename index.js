@@ -19,7 +19,12 @@ const __dirname = path.dirname(__filename);
 app.use(cors({
   origin: 'http://localhost:3000'
  }));
+/*
+app.use(cors({
+  origin: 'https://merry-paletas-5154f7.netlify.app'
+ }));
 
+*/
 app.use('/uploads',express.static('uploads'));
 //app.use('/uploads', express.static(path.join(__dirname,'uploads')))
 /*
