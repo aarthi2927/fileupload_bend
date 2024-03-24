@@ -17,8 +17,8 @@ const MONGO_URL = process.env.MONGO_URL;
 const __filename = new URL(import.meta.url).pathname;
 const __dirname = path.dirname(__filename);
 app.use(cors({
- origin: 'http://localhost:3000'
-  // origin: 'https://merry-paletas-5154f7.netlify.app'
+ //origin: 'http://localhost:3000'
+ origin: 'https://merry-paletas-5154f7.netlify.app'
  }));
 /*
 app.use(cors({
